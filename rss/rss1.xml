@@ -7,26 +7,26 @@
     
     <item>
       <title>Spaghetti Carbonara</title>
-      <link>https://ejemplo.com/recetas/pasta/spaghetti-carbonara</link>
+      <link>https://yumgc.github.io/A5.1/</link>
       <description>Una receta clásica de spaghetti carbonara con panceta, huevo y queso parmesano.</description>
       <category>PastaNormal</category>
-      <imagen></imagen>
+      <imagen>https://yumgc.github.io/A5.1/imagenes/SpaghettiAglio.jpg</imagen>
       <FechaDePublicacion>10/8/2023</FechaDePublicacion>
     </item>
     <item>
       <title>Lasaña de Carne</title>
-      <link>https://ejemplo.com/recetas/pasta/lasana-de-carne</link>
+      <link>https://yumgc.github.io/A5.1/</link>
       <description>Una deliciosa lasaña de carne con salsa de tomate, carne molida y queso mozzarella.</description>
       <category>PastaNormal</category>
-      <imagen></imagen>
+      <imagen>https://yumgc.github.io/A5.1/imagenes/lasanaCarne.jpg</imagen>
       <FechaDePublicacion>13/2/2023</FechaDePublicacion>
     </item>
     <item>
       <title>Spaghetti Aglio e olio</title>
-      <link>https://ejemplo.com/recetas/pasta/fettuccine-alfredo</link>
+      <link>https://yumgc.github.io/A5.1/</link>
       <description>Una sencilla receta con solo 4 ingredientes: ajo, perejil, aceite de oliva y perejil. </description>
       <category>PastaVegana</category>
-      <imagen></imagen>
+      <imagen>https://yumgc.github.io/A5.1/imagenes/carbonara.jpg</imagen>
       <FechaDePublicacion>13/5/2023</FechaDePublicacion>
     </item>
    </channel> 

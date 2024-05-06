@@ -7,26 +7,26 @@
     
     <item>
       <title>Ensalada César</title>
-      <link>https://ejemplo.com/recetas/ensaladas/ensalada-cesar</link>
+      <link>https://yumgc.github.io/A5.1/</link>
       <description>Una ensalada césar clásica con lechuga romana, pollo a la parrilla, crutones y aderezo césar.</description>
       <category>Ensaladas</category>
-      <imagen></imagen>
+      <imagen>https://yumgc.github.io/A5.1/imagenes/cesar.jpg</imagen>
       <FechaDePublicacion>9/8/2023</FechaDePublicacion>
     </item>
     <item>
       <title>Ensalada Caprese</title>
-      <link>https://ejemplo.com/recetas/ensaladas/ensalada-caprese</link>
+      <link>https://yumgc.github.io/A5.1/</link>
       <description>Una ensalada caprese simple y deliciosa con tomate, mozzarella fresca, albahaca y aceite de oliva.</description>
       <category>Ensaladas</category>
-      <imagen></imagen>
+      <imagen>https://yumgc.github.io/A5.1/imagenes/Caprese.jpg</imagen>
       <FechaDePublicacion>16/8/2023</FechaDePublicacion>
     </item>
     <item>
       <title>Ensalada de Frutas</title>
-      <link>https://ejemplo.com/recetas/ensaladas/ensalada-de-frutas</link>
+      <link>https://yumgc.github.io/A5.1/</link>
       <description>Una refrescante ensalada de frutas con fresas, piña, kiwi y aguacate.</description>
       <category>EnsaladasVeganas</category>
-      <imagen></imagen>
+      <imagen>https://yumgc.github.io/A5.1/imagenes/frutas.jpg</imagen>
       <FechaDePublicacion>13/8/2023</FechaDePublicacion>
     </item>
   </channel>
