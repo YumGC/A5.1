@@ -1,0 +1,148 @@
+<!doctype html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <style>
+    body {
+      font-family: Helvetica, Arial, sans-serif;
+      background-color:rgb(255, 255, 255) ;
+      margin: 0;
+    }
+
+    .container {
+      margin: 0 auto;
+      background-color: rgb(224, 235, 232);
+
+    }
+
+
+    .tile {
+      border-radius: 10px;
+      padding: 1.5em;
+      background-color: #ffffff;
+    }
+
+    .flex {
+      margin-top: 10px;
+     
+      display: flex;
+      flex-grow: 3;
+
+    }
+
+    .column-sidebar {
+      margin-left: 1.5em;
+    }
+
+    .column-main {
+      border-radius: 10px;
+      /* border: 2px solid #000; */
+    }
+
+    .column-sidebar {
+      
+      /* border: 2px solid red; */
+    }
+
+    nav {
+      background-color: #747474;
+    }
+
+    ul {
+      margin: 2px;
+    }
+
+    h1.titulo {
+      display: flex;
+      justify-content: center;
+      color: rgb(75, 177, 154);
+    }
+    h2.subtitulo {
+      display: flex;
+      justify-content: center;
+      font-size: smaller;
+      color: rgb(75, 177, 154);
+    }
+
+    .campus {
+      border-radius: 10px;
+      margin-top: 25px;
+      display: flex;
+      align-items: center;
+      
+      
+    }
+    .nav1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color:aquamarine
+    }
+    .rsslinks {
+      display: flex;
+      justify-content: center;
+      justify-content: space-between;
+      padding: 2em 2em ;
+
+    }
+    .rssin {
+      font-style: italic;
+      color: white;
+      background-color: rgb(126, 9, 133);
+      padding: 10px;
+    }
+    .link {
+      color: azure;
+    }
+    .btn {
+      border-radius: 30%;
+      background-color: blueviolet;
+      padding: 5px 5px;
+      
+     }
+    
+  </style>
+
+<body>
+  <div class="container">
+    <nav class="nav1">
+      <div><img src="https://cdn-icons-png.flaticon.com/512/3670/3670120.png" height="50px"></div>
+      <a href="https://yumgc.github.io/prueba/rss/rss1"><img src="https://e00-elmundo.uecdn.es/rss/iconos/boton_rss.gif" width="36" height="14" border="0" alt="RSS"></a>
+      <a href="rss2.xml" class="btn">Ensaladas</a>
+      </nav>
+      
+  
+    <header>
+      <h1 class="titulo">Cocina</h1>
+    </header>
+    <main class="flex">
+      <div class="column-main tile">
+        <h1>Encuentro con empresas</h1>
+        <p>Hoy hemos tenido el placer de asistir a un encuentro profesional entre estudiantes de Formación Profesional
+          (FP) y empresas tecnológicas que se llevó a cabo en INFECAR, organizado por la SPEGC (Sociedad de Promoción
+          Económica de Gran Canaria) y dirigido a nuestro alumnado de ciclos formativos de Informática.</p>
+        <p>Este evento ha sido una excelente oportunidad para las empresas presentes de darse a conocer y mostrar sus
+          proyectos y oportunidades laborales, así como para nuestros estudiantes de FP de explorar las diferentes
+          empresas y ver en qué áreas podrían llevar a cabo sus prácticas formativas.</p>
+      </div>
+      <div class="column-sidebar">
+        <div class="tile">
+          <form class="login-form">
+            <h3>Acceso alumnado</h3>
+            <p>
+              <label for="username">Usuario</label>
+              <input id="username" type="text" name="username" />
+            </p>
+            <p>
+              <label for="password">Clave</label>
+              <input id="password" type="password" name="password" />
+            </p>
+            <button type="submit">Inicio</button>
+          </form>
+        </div>
+        <div class="tile campus">
+          <img src="logocampus.png" height="40px" width="200px">
+        </div>
+      </div>
+    </main>
+</body>
