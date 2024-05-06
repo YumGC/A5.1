@@ -11,6 +11,7 @@
       <description>Una ensalada césar clásica con lechuga romana, pollo a la parrilla, crutones y aderezo césar.</description>
       <category>Ensaladas</category>
       <imagen></imagen>
+      <FechaDePublicacion>9/8/2023</FechaDePublicacion>
     </item>
     <item>
       <title>Ensalada Caprese</title>
@@ -18,6 +19,7 @@
       <description>Una ensalada caprese simple y deliciosa con tomate, mozzarella fresca, albahaca y aceite de oliva.</description>
       <category>Ensaladas</category>
       <imagen></imagen>
+      <FechaDePublicacion>16/8/2023</FechaDePublicacion>
     </item>
     <item>
       <title>Ensalada de Frutas</title>
@@ -25,6 +27,7 @@
       <description>Una refrescante ensalada de frutas con fresas, piña, kiwi y aguacate.</description>
       <category>EnsaladasVeganas</category>
       <imagen></imagen>
+      <FechaDePublicacion>13/8/2023</FechaDePublicacion>
     </item>
   </channel>
 </rss>

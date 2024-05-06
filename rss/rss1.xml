@@ -11,6 +11,7 @@
       <description>Una receta clásica de spaghetti carbonara con panceta, huevo y queso parmesano.</description>
       <category>PastaNormal</category>
       <imagen></imagen>
+      <FechaDePublicacion>10/8/2023</FechaDePublicacion>
     </item>
     <item>
       <title>Lasaña de Carne</title>
@@ -18,6 +19,7 @@
       <description>Una deliciosa lasaña de carne con salsa de tomate, carne molida y queso mozzarella.</description>
       <category>PastaNormal</category>
       <imagen></imagen>
+      <FechaDePublicacion>13/2/2023</FechaDePublicacion>
     </item>
     <item>
       <title>Fettuccine Aglio e olio</title>
@@ -25,6 +27,7 @@
       <description>Una sencilla receta con solo 4 ingredientes: ajo, perejil, aceite de oliva y perejil. </description>
       <category>PastaVegana</category>
       <imagen></imagen>
+      <FechaDePublicacion>13/5/2023</FechaDePublicacion>
     </item>
    </channel> 
 </rss>
