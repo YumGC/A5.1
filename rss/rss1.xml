@@ -3,7 +3,7 @@
   <channel>
     <title>Recetas de Pasta</title>
     <link>https://yumgc.github.io/A5.1/</link>
-    
+    <description>Recetas deliciosas de pasta para disfrutar en casa.</description>
     
     <item>
       <title>Spaghetti Carbonara</title>
@@ -20,11 +20,11 @@
       <imagen></imagen>
     </item>
     <item>
-      <title>Fettuccine Alfredo</title>
+      <title>Fettuccine Aglio e olio</title>
       <link>https://ejemplo.com/recetas/pasta/fettuccine-alfredo</link>
-      <description>Una cremosa receta de fettuccine alfredo con salsa de queso parmesano y mantequilla.</description>
+      <description>Una sencilla receta con solo 4 ingredientes: ajo, perejil, aceite de oliva y perejil. </description>
       <category>PastaVegana</category>
       <imagen></imagen>
     </item>
-    
+   </channel> 
 </rss>
