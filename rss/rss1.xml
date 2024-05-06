@@ -1,56 +1,30 @@
-<rss version="2.0">
-    <channel>
-        <titulo>Pasta</titulo>
-        <imagen>https://imgs.search.brave.com/8vMX4-m75PkZpBufUGP0a3QvZaldoG5Tpyy5BmXLKjc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTg1/MDY1OTQ1L3Bob3Rv/L3Bhc3RhLXZhcmlh/dGlvbi5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9TVFFalU3/dUFudlRJU05vSTc4/TXBDZHVtN3NqTjkz/dGplRUQzckZxamRI/dz0</imagen>
-    </channel>
-</rss>
-
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Recetas de Pasta y Ensaladas</title>
-    <link>https://ejemplo.com/recetas</link>
-    <description>Recetas deliciosas de pasta y ensaladas para disfrutar en casa.</description>
-    <language>es-es</language>
+    <title>Recetas de Pasta</title>
+    <link>https://yumgc.github.io/A5.1/</link>
     
     
     <item>
       <title>Spaghetti Carbonara</title>
       <link>https://ejemplo.com/recetas/pasta/spaghetti-carbonara</link>
       <description>Una receta clásica de spaghetti carbonara con panceta, huevo y queso parmesano.</description>
-      <category>Pasta</category>
+      <category>PastaNormal</category>
+      <imagen></imagen>
     </item>
     <item>
       <title>Lasaña de Carne</title>
       <link>https://ejemplo.com/recetas/pasta/lasana-de-carne</link>
       <description>Una deliciosa lasaña de carne con salsa de tomate, carne molida y queso mozzarella.</description>
-      <category>Pasta</category>
+      <category>PastaNormal</category>
+      <imagen></imagen>
     </item>
     <item>
       <title>Fettuccine Alfredo</title>
       <link>https://ejemplo.com/recetas/pasta/fettuccine-alfredo</link>
       <description>Una cremosa receta de fettuccine alfredo con salsa de queso parmesano y mantequilla.</description>
-      <category>Pasta</category>
+      <category>PastaVegana</category>
+      <imagen></imagen>
     </item>
     
-    
-    <item>
-      <title>Ensalada César</title>
-      <link>https://ejemplo.com/recetas/ensaladas/ensalada-cesar</link>
-      <description>Una ensalada césar clásica con lechuga romana, pollo a la parrilla, crutones y aderezo césar.</description>
-      <category>Ensaladas</category>
-    </item>
-    <item>
-      <title>Ensalada Caprese</title>
-      <link>https://ejemplo.com/recetas/ensaladas/ensalada-caprese</link>
-      <description>Una ensalada caprese simple y deliciosa con tomate, mozzarella fresca, albahaca y aceite de oliva.</description>
-      <category>Ensaladas</category>
-    </item>
-    <item>
-      <title>Ensalada de Frutas</title>
-      <link>https://ejemplo.com/recetas/ensaladas/ensalada-de-frutas</link>
-      <description>Una refrescante ensalada de frutas con fresas, piña, kiwi y un toque de miel.</description>
-      <category>Ensaladas</category>
-    </item>
-  </channel>
 </rss>

@@ -1,6 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
-    <channel>
-        <titulo>Pasta</titulo>
-        <imagen>https://imgs.search.brave.com/8vMX4-m75PkZpBufUGP0a3QvZaldoG5Tpyy5BmXLKjc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTg1/MDY1OTQ1L3Bob3Rv/L3Bhc3RhLXZhcmlh/dGlvbi5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9TVFFalU3/dUFudlRJU05vSTc4/TXBDZHVtN3NqTjkz/dGplRUQzckZxamRI/dz0</imagen>
-    </channel>
+  <channel>
+    <title>Recetas Ensaladas</title>
+    <link>https://ejemplo.com/recetas</link>
+    <description>Recetas deliciosas de pasta y ensaladas para disfrutar en casa.</description>
+    <language>es-es</language>
+    
+    <item>
+      <title>Ensalada César</title>
+      <link>https://ejemplo.com/recetas/ensaladas/ensalada-cesar</link>
+      <description>Una ensalada césar clásica con lechuga romana, pollo a la parrilla, crutones y aderezo césar.</description>
+      <category>Ensaladas</category>
+      <imagen></imagen>
+    </item>
+    <item>
+      <title>Ensalada Caprese</title>
+      <link>https://ejemplo.com/recetas/ensaladas/ensalada-caprese</link>
+      <description>Una ensalada caprese simple y deliciosa con tomate, mozzarella fresca, albahaca y aceite de oliva.</description>
+      <category>Ensaladas</category>
+      <imagen></imagen>
+    </item>
+    <item>
+      <title>Ensalada de Frutas</title>
+      <link>https://ejemplo.com/recetas/ensaladas/ensalada-de-frutas</link>
+      <description>Una refrescante ensalada de frutas con fresas, piña, kiwi y aguacate.</description>
+      <category>EnsaladasVeganas</category>
+      <imagen></imagen>
+    </item>
+  </channel>
 </rss>
