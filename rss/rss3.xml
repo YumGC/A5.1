@@ -29,5 +29,14 @@
       <imagen>https://yumgc.github.io/A5.1/imagenes/carbonara.jpg</imagen>
       <FechaDePublicacion>13/5/2023</FechaDePublicacion>
     </item>
+    <item>
+      <title>Spaghetti Aglio e olio</title>
+      <link>https://yumgc.github.io/A5.1/</link>
+      <description>Una sencilla receta con solo 4 ingredientes: ajo, perejil, aceite de oliva y perejil. </description>
+      <category>PastaVegana</category>
+      <imagen>https://yumgc.github.io/A5.1/imagenes/carbonara.jpg</imagen>
+      <FechaDePublicacion>13/5/2023</FechaDePublicacion>
+    </item>
+
    </channel> 
 </rss>
