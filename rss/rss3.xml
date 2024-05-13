@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Recetas de Pasta</title>
+    <title>Prueba</title>
     <link>https://yumgc.github.io/A5.1/</link>
     <description>Recetas deliciosas de pasta para disfrutar en casa.</description>
     
@@ -37,6 +37,13 @@
       <imagen>https://yumgc.github.io/A5.1/imagenes/carbonara.jpg</imagen>
       <pubDate>Mon, 13 May 2024 10:34:00 +0100</pubDate>
     </item>
-
+    <item>
+      <title>Spaghetti Aglio e olio</title>
+      <link>https://yumgc.github.io/A5.1/</link>
+      <description>Una sencilla receta con solo 4 ingredientes: ajo, perejil, aceite de oliva y perejil. </description>
+      <category>PastaVegana</category>
+      <imagen>https://yumgc.github.io/A5.1/imagenes/carbonara.jpg</imagen>
+      <pubDate>Mon, 13 May 2024 10:34:00 +0100</pubDate>
+    </item>
    </channel> 
 </rss>
