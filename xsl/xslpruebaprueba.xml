@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsl:stylesheet version="1.0" xmlns:xsl="http
+://www.w3.org/1999/XSL/Transform">
+
+  <xsl:template match="/">
+    <html>
+      <head>
+        <title>Inventario de Dispositivos</title>
+        <style>
+          table {
+            border-collapse: collapse;
+          }
+          th, td {
+            border: 1px solid black;
+            padding: 5px;
+          }
+        </style>
+      </head>
+      <body>
+        <h1>Inventario de Dispositivos</h1>
+        <table>
+          <tr>
+            <th>Marca</th>
+            <th>Modelo</th>
+            <th>URL Oficial</th>
+            <th>Manual</th>
+            <th>Imagen</th>
+            <th>Tutoriales</th>
+          </tr>
+          <xsl:for-each select="inventario/dispositivo">
+            <tr>
+              <td><xsl:value-of select="marca"/></td>
+              <td><xsl:value-of select="modelo"/></td>
+              <td><xsl:value-of select="url_oficial"/></td>
+              <td>
+                <xsl:choose>
+                  <xsl:when test="manual">
+                    <a href="{@manual}">Manual</a>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    No disponible
+                  </xsl:otherwise>
+                </xsl:choose>
+              </td>
+              <td><img src="{@imagen}" alt="Imagen del dispositivo"/></td>
+              <td>
+                <ul>
+                  <xsl:for-each select="tutoriales/tutorial">
+                    <li><a href="{@url}"><xsl:value-of select="titulo"/></a></li>
+                  </xsl:for-each>
+                </ul>
+              </td>
+            </tr>
+          </xsl:for-each>
+        </table>
+      </body>
+    </html>
+  </xsl:template>
+
+</xsl:stylesheet>
